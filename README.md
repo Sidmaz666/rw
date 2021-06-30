@@ -3,7 +3,7 @@
 ### What it does?
 It is a very simple script that takes random words from the rw.txt file and show it to you. The script is self explaniatory. You can add the path of the script to your .zshrc , .bashrc or .fishrc(Not sure about that) file and can have random words shown to you every time when you open your terminal.
 ## Dependencies
-It is not a dependant script :( it relies on a few packages. If you haven't installed thoese packages the script will not work as intended. The following dependencies are as follows.
+It is not a dependant script :( it relies on a few packages. If you haven't installed these packages the script will not work as intended. The following dependencies are as follows.
 1. shuf
 2. lolcat
 3. figlet
