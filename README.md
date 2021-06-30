@@ -5,10 +5,11 @@ It is a very simple script that takes random words from the rw.txt file and show
 ## Dependencies
 It is not a dependant script :( it relies on a few packages. If you haven't installed these packages the script will not work as intended. The following dependencies are as follows.
 1. shuf
-2. lolcat
-3. figlet
-4. figlet-extra-fonts
-5. BASH SHELL (Will work on zsh, might work on fish, dash etc)
+2. head
+3. lolcat
+4. figlet
+5. figlet-extra-fonts
+6. BASH SHELL (Will work on zsh, might work on fish, dash etc)
 ## Installation
 Grab the dependencies, and than copy the rwwyoyt folder to any directory you want, after that just add the path of the script to your .bashrc or .zshrc file. For example.
  /home/$USER/.config/scripts/rwwyoyt/rw-simp.sh
