@@ -8,7 +8,7 @@ It is not a dependant script :( it relies on a few packages. If you haven't inst
 2. lolcat
 3. figlet
 4. figlet-extra-fonts
-5. BASH SHELL ( Might work on other shells as well)
+5. BASH SHELL (Will work on zsh, might work on fish, dash etc)
 ## Installation
 Grab the dependencies, and than copy the rwwyoyt folder to any directory you want, after that just add the path of the script to your .bashrc or .zshrc file. For example.
  /home/$USER/.config/scripts/rwwyoyt/rw-simp.sh
