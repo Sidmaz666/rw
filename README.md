@@ -14,7 +14,7 @@ Grab the dependencies, and than copy the rwwyoyt folder to any directory you wan
  /home/$USER/.config/scripts/rwwyoyt/rw-simp.sh
   1. To know if shuf is installed on your distro run the shuf command and check, it is mostly installed in all GNU/Linux distros.
   2. sudo apt-get install lolcat figlet // For Ubuntu and debian based distros
-  3. snap install lolcat figlet // Native packages might be old you I will reccomend you to install it using snap :'(
+  3. snap install lolcat figlet // Native packages might be old so I will reccomend you to install it using snap :'(
   4. Get the figlet-extra-fonts from git https://github.com/xero/figlet-fonts.git (Though ou only need the 3d.ttf font)
   5. Copy the fonts to /usr/local/shre/fonts or /usr/share/fonts/ or .local/share/fonts  directory.(Not sure about it 😅)
   6. For Arch based distro just type sudo pacman -S figlet lolcat
