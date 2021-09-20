@@ -1,5 +1,5 @@
 # rwwyoyt (Random Words When you Open your Terminal:)
-![preview](https://raw.githubusercontent.com/Sidmaz666/rwwyoyt/main/rw-preview.jpg)
+![preview](https://github.com/Sidmaz666/rwwyoyt/blob/main/preview.gif)
 ### What it does?
 It is a very simple script that takes random words from the rw.txt file and show it to you. The script is self explaniatory. You can add the path of the script to your .zshrc , .bashrc or .fishrc(Not sure about that) file and can have random words shown to you every time when you open your terminal.
 ## Dependencies
@@ -8,8 +8,9 @@ It is not a dependant script :( it relies on a few packages. If you haven't inst
 2. head
 3. lolcat
 4. figlet
-5. figlet-extra-fonts
-6. BASH SHELL (Will work on zsh, might work on fish, dash etc)
+5. no-more-secret (nms)
+6. figlet-extra-fonts
+7. BASH SHELL (Will work on zsh, might work on fish, dash etc)
 ## Installation
 Grab the dependencies, and than copy the rwwyoyt folder to any directory you want, after that just add the path of the script to your .bashrc or .zshrc file. For example.
  /home/$USER/.config/scripts/rwwyoyt/rw-simp.sh
