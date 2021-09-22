@@ -1,5 +1,5 @@
 # Random Words When you Open your Terminal !!
-   ![preview](https://github.com/Sidmaz666/rw/blob/main/rw-preview.gif?raw=true)
+![preview](https://github.com/Sidmaz666/rw/blob/main/rw-preview.gif?raw=true)
 ### What it does?
 It is a very simple script that takes random words from the rw.txt file and show it to you. The script is self explaniatory. You can add the path of the script to your .zshrc , .bashrc or .fishrc(Not sure about that) file and can have random words shown to you every time when you open your terminal.
 ## Dependencies
@@ -13,7 +13,7 @@ It is not a dependant script it relies on a few packages. If you haven't install
 7. BASH SHELL (Will work on zsh, might work on fish, dash etc)
 ## Installation
 Grab/Install all of the dependencies mentioned here. Then move into the rw directory, open a terminal there and run the install.sh script.
-								./install.sh
+		./install.sh
 Type your password, type y and then run the rw command on your Terminal !!
 ## USAGE: rw [OPTIONS] 
 	The Word Text File is Located at /home/$USER/.config/rw.txt
