@@ -5,8 +5,8 @@
 #   ____) | | (_| | |  | | (_| |/ /| (_) | (_) | (_) |
 #  |_____/|_|\__,_|_|  |_|\__,_/___|\___/ \___/ \___/     :)
 install_func (){
-readonly current_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cp rw.txt /home/$USER/.config/rw.txt
+#readonly current_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+sudo cp rw.txt /home/$USER/.config/rw.txt
 sudo cp rw /bin/rw
 while IFS= read line; do
 printf "%s\n" "$line"
