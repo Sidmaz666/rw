@@ -43,3 +43,5 @@ In your Terminal enter the command **./install.sh**, then type your password, ty
 	rw -c "Hello" -i     Solid Background & Custom Text
 	rw -c "Hello" -d     Rainbow Effect
 	*Mention the custom word inside double "quotes".
+### Note
+To Uninstall run the command **./install.sh --uninstall**
