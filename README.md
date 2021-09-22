@@ -1,5 +1,4 @@
-# Random Words When you Open your Terminal:)
-![preview](https://github.com/Sidmaz666/rw/blob/main/rw-preview.gif?raw=true)
+# Random Words When you Open your Terminal !!
 ### What it does?
 It is a very simple script that takes random words from the rw.txt file and show it to you. The script is self explaniatory. You can add the path of the script to your .zshrc , .bashrc or .fishrc(Not sure about that) file and can have random words shown to you every time when you open your terminal.
 ## Dependencies
@@ -44,6 +43,5 @@ Type your password, type y and then run the rw command on your Terminal !!
 	rw -c "Hello" -i     Solid Background & Custom Text
 	rw -c "Hello" -d     Rainbow Effect
 	*Mention the custom word inside double "quotes".
+	![preview](https://github.com/Sidmaz666/rw/blob/main/rw-preview.gif?raw=true)
 
-### Note
-Only three lines of code, it loads relatively fast doesn't lag, you can customize the rw.txt file with your own preferences of words you wanna see :)
