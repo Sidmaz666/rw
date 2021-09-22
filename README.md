@@ -13,8 +13,7 @@ It is not a dependant script it relies on a few packages. If you haven't install
 7. BASH SHELL (Will work on zsh, might work on fish, dash etc)
 ## Installation
 Grab/Install all of the dependencies mentioned here. Then move into the rw directory, open a terminal there and run the install.sh script.
- 		./install.sh
-Type your password, type y and then run the rw command on your Terminal !!
+In your Terminal enter the command **./install.sh**, then type your password, type y and then run the rw command on your Terminal !!
 ## USAGE: rw [OPTIONS] 
 	The Word Text File is Located at /home/$USER/.config/rw.txt
 	[OPTIONS]
