@@ -28,7 +28,8 @@ uninstall_func (){
 if [[ -f "/home/$USER/.config/rw.txt" ]] && [[ -f "/bin/rw" ]]; then
        	sudo rm /home/$USER/.config/rw.txt 
 	sudo rm /bin/rw 
-       	echo -e "Random Word Uninstalled From your System \n" 
+       	echo -e "Random Word Uninstalled From your System \n"
+       exit;	
 else
 	echo -e "Random Word is Not Installed on your system\n" 
        	read -p "Install/Reinstall? (y/n) " confilm 

@@ -106,10 +106,6 @@ main_f
 
 	 og && exit ||
     case "$1" in 
-	    $1="*" )
-		    help_u
-		    exit;
-		    ;;
         --help | -h )
             help_u
             exit;
@@ -148,12 +144,15 @@ echo -e "$2" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$opp 
 		 -n | --normal )
 			 if [[ "$2" = "-l" ]];then
 				 if [[ "$3" = "-a" ]];then
+					 clear
 			    echo -e "~"$do" "$dn" "$ola" "$deo"~" | nms -a -s | lolcat -F $RANDOM -a -d 1 -s 8000
 		
 					 exit;
 				 fi
+				 clear
 		        echo -e "~"$do" "$dn" "$ola" "$deo"~" | lolcat -F $RANDOM 
 		else
+			clear
 			echo -e "~"$do" "$ola" "$dn" "$deo"~" 
 			 fi
 			 exit;
