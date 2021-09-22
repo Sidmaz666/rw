@@ -1,0 +1,167 @@
+#!/bin/bash
+#   _____  0    | |\    /|           / /   / /   / /  
+#  | (___  _  __| | \  / | __ _ ____/ /_  / /_  / /_  
+#   \___ \| |/ _` | |\/| |/ _` |_  / '_ \| '_ \| '_ \    
+#   ____) | | (_| | |  | | (_| |/ /| (_) | (_) | (_) |
+#  |_____/|_|\__,_|_|  |_|\__,_/___|\___/ \___/ \___/     :)
+prog="rw"
+txt_f="/home/$USER/.config/rw.txt"  
+do="$(shuf -r $txt_f | head -n1 )"
+	dn="$(shuf -r $txt_f | head -n1)"    
+ola="$(shuf -r $txt_f | head -n1 )"
+	deo="$(shuf -r $txt_f | head -n1)"  
+main_f(){
+	clear
+echo -e "~"$do"\n"$dn"~" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$op $diz  && exit
+}
+help_u(){
+		while IFS= read line; do
+		printf "%s\n" "$line"
+	done <<-EOF
+	USAGE: $prog [OPTION] 
+
+	The Word Text File is Located at /home/$USER/.config/rw.txt
+
+	[OPTIONS]
+
+	-i      	Solid Background Color
+--dizzy         Rainbow effect, No Solid Background
+-c 		Custom Word
+-n,--normal     Without 3d Fonts, Lolcat and NMS Animation
+-n -l -a        [-l] For Lolcat & [ -a ] for Animation.
+
+**[-a] flag can be applied after -l
+**[-l] flag only avalable while using -n, --normal flag.
+
+-h, --help      $prog Usage
+
+	Example:
+
+	rw
+	rw -i
+	rw --dizzy
+	rw -c "Hello"
+	rw --normal -l
+	rw -n -l -a
+	rw -help ; rw --help
+
+	Note: Running the command Will Clear your Terminal.
+	If your Terminal Window size if smaller than 19 and 77, 
+	Then the script will only output one word.
+	You can use multiple flags with the [-c] flag.
+
+	Example:
+
+	rw -c "Hello" -id    Rainbow Effect & Solid Background
+	rw -c "Hello" -di
+	rw -c "Hello" -i     Solid Background & Custom Text
+	rw -c "Hello" -d     Rainbow Effect
+
+*Mention the custom word inside double "quotes".
+	EOF
+}
+og (){	
+	ss="$(stty size | sed 's/[[:space:]]//g' )"
+	dom="$(echo $do | wc -c)"
+	xeom="$(shuf -r $txt_f | head -n1 )"
+	eom="$(echo $xeom)"
+	if [ $ss -lt 1977 ] || [$ss -eq 1977  ]; then
+		if [ $dom -gt 8 ];then 
+			while true
+			do
+	clear
+	lom="$(shuf -r $txt_f | head -n1 )"
+	echo -e "~$lom" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$op $diz
+	aixom="$(echo "$lom" | wc -c )"
+	if [ $aixom -lt 9 ] && [ $aixom -gt 2 ];then
+		break;
+	fi
+done
+else
+	clear
+	echo -e "~$do" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$op $diz
+		fi
+else
+	if [ $ss -lt 2377 ];then
+		sol="$(echo $do | wc -c )"
+		bol="$(echo $dn | wc -c )"
+		sum=$(($bol + $sol))	
+if [ $sum -gt 15 ];then	
+	while true
+	do
+		fom="$(shuf -r $txt_f | head n1 )"
+		gom="$(shuf -r $txt_f | head n1 )"
+		clear
+	echo -e "~$fom\n$gom~\c" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$op $diz
+	if [ $sum -lt 15 ]; then
+		break;
+	fi
+done
+fi
+	fi
+main_f
+	fi
+}		 
+ [[ $# -eq 0  ]] &&
+
+	 og && exit ||
+    case "$1" in 
+	    $1="*" )
+		    help_u
+		    exit;
+		    ;;
+        --help | -h )
+            help_u
+            exit;
+            ;;
+ 	  -i )
+         op="$(echo "$1" |sed 's/^.//')"
+	 og &&
+	 exit;
+	 ;;
+	 --dizzy )
+		 diz="-F $RANDOM"
+		 og &&
+		 exit;
+		 ;;
+	 -c )
+		 moss=('-d' '-i' '-di' '-id')
+		 if [[ $3 = ${moss[1]} ]]; then
+	  opp="$(echo "$3" | sed 's/^.//')"
+		 fi
+		   if [[ $3 = ${moss[0]} ]]; then
+	  miz="-F $RANDOM"
+		 fi
+       if  [[ $3 = ${moss[2]} ]] || [[ $3 = ${moss[3]} ]]; then
+	opp="i -F $RANDOM"		
+       	fi
+	if [ -z $2 ]; then
+		read -p "Enter-Text: " oden
+		clear &&
+echo -e "$oden" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$opp $miz  &&
+		exit 
+	fi
+	clear &&
+echo -e "$2" | figlet -f "3d" -t -p | nms -a -s | lolcat -a -d 1 -s 8000 -p$opp $miz  &&	
+		 exit
+		 ;;
+		 -n | --normal )
+			 if [[ "$2" = "-l" ]];then
+				 if [[ "$3" = "-a" ]];then
+			    echo -e "~"$do" "$dn" "$ola" "$deo"~" | nms -a -s | lolcat -F $RANDOM -a -d 1 -s 8000
+		
+					 exit;
+				 fi
+		        echo -e "~"$do" "$dn" "$ola" "$deo"~" | lolcat -F $RANDOM 
+		else
+			echo -e "~"$do" "$ola" "$dn" "$deo"~" 
+			 fi
+			 exit;
+			 ;;
+
+	 * )
+		 help_u
+		 exit;
+		 ;;
+    esac
+shift
