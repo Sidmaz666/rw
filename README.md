@@ -19,16 +19,16 @@ Type your password, type y and then run the rw command on your Terminal !!
 	The Word Text File is Located at /home/$USER/.config/rw.txt
 	[OPTIONS]
 	-i      	Solid Background Color
---dizzy         Rainbow effect, No Solid Background
--c 		Custom Word
--n,--normal     Without 3d Fonts, Lolcat and NMS Animation
--n -l -a        [-l] For Lolcat & [ -a ] for Animation.
-**[-a] flag can be applied after -l
-**[-l] flag only avalable while using -n, --normal flag.
--h, --help      rw Usage
-	Example:
-	rw
-	rw -i
+ --dizzy         Rainbow effect, No Solid Background
+ -c 		Custom Word
+ -n,--normal     Without 3d Fonts, Lolcat and NMS Animation
+ -n -l -a        [-l] For Lolcat & [ -a ] for Animation.
+ [-a] flag can be applied after -l
+ [-l] flag only avalable while using -n, --normal flag.
+ -h, --help      rw Usage
+ Example:
+ rw
+ rw -i
 	rw --dizzy
 	rw -c "Hello"
 	rw --normal -l
