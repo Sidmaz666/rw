@@ -1,5 +1,5 @@
 # Random Words When you Open your Terminal !!
-<center>![preview](https://github.com/Sidmaz666/rw/blob/main/rw-preview.gif?raw=true)</center>
+					![preview](https://github.com/Sidmaz666/rw/blob/main/rw-preview.gif?raw=true)
 ### What it does?
 It is a very simple script that takes random words from the rw.txt file and show it to you. The script is self explaniatory. You can add the path of the script to your .zshrc , .bashrc or .fishrc(Not sure about that) file and can have random words shown to you every time when you open your terminal.
 ## Dependencies
